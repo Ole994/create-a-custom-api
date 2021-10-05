@@ -1,0 +1,9 @@
+.product{
+    display: flex;
+    justify-content: space-between ;
+    background-color:grey;
+    padding: 20px;
+    margin: 20px;
+    font-size: large;
+}
+
