@@ -36,12 +36,6 @@
 //     `
 // }
 
-
-
-
-
-
-
 //Object destructuring
 
 // const things = {
@@ -70,7 +64,41 @@
 
 // const { country } = things.nice;
 
-// console.log ("nice")
+// console.log ("nice");
 
 
- 
+//http://localhost:1337/admin/auth/register-admin
+
+
+// const queryString = document.location.search;
+
+// console.log(queryString);
+
+// const params = new URLSearchParams(queryString);
+
+// console.log (params)
+
+// const id = params.get("id");
+
+// console.log (id);
+
+// const name = params.get("name");
+
+// console.log (name);
+
+import {baseUrl} from "./js/settings/api.js"
+
+const productsUrl = baseUrl + "products"
+
+
+
+
+
+
+
+
+
+
+
+
+
